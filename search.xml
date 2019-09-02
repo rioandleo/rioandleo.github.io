@@ -4,6 +4,13 @@
     <title><![CDATA[centos7安装python3]]></title>
     <url>%2F2019%2F09%2F01%2Fcentos7%E5%AE%89%E8%A3%85python3%2F</url>
     <content type="text"><![CDATA[centos7安装python31234567891011121314151617cd /tmpwget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xzyum -y groupinstall &quot;Development tools&quot;yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-develmkdir /usr/local/python3 tar xf Python-3.6.7.tar.xz cd Python-3.6.7/./configure --prefix=/usr/local/python3make &amp;&amp; make install]]></content>
+      <categories>
+        <category>系统</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>centos</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[孩子长高黄金期]]></title>
