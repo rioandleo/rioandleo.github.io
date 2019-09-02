@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[conda虚拟环境操作]]></title>
+    <url>%2F2019%2F09%2F01%2Fconda%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E6%93%8D%E4%BD%9C%2F</url>
+    <content type="text"><![CDATA[conda虚拟环境操作 conda env list 或 conda info -e 查看当前存在哪些虚拟环境 conda update conda 检查更新当前conda conda update --all 更新本地已安装的包 conda create -n your_env_name python=X.X anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境。your_env_name文件可以在Anaconda安装目录envs文件下找到。 Windows: activate your_env_name(虚拟环境名称) 激活虚拟环境 conda install -n your_env_name [package] 安装package到your_env_name中 linux: source deactivateWindows: deactivate 关闭虚拟环境 conda remove -n your_env_name(虚拟环境名称) --all 删除虚拟环境 conda remove --name your_env_name package_name 删除环境中的某个包]]></content>
+      <categories>
+        <category>python环境</category>
+      </categories>
+      <tags>
+        <tag>conda</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[孩子长高黄金期]]></title>
     <url>%2F2019%2F09%2F01%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
     <content type="text"><![CDATA[孩子长高黄金期 3-7月正是一年之中孩子长个速度最快的时期。人体新陈代谢旺盛，内分泌激素尤其是生长激素分泌增多，有利于孩子生长。 春季回暖的气温、充足的光照、多样的食材，均有助于对孩子进行科学喂养 如何把握春季长个黄金期1.膳食营养均衡膳食营养是儿童体格生长的物质基础，营养摄入的均衡与否对于儿童的身高有着直接的影响，比如： ✿ 钙：是维持骨骼健康的重要成分，在儿童青少年时期尽早补充足量的钙，对于儿童的身高发育及成年期的骨质健康都有一定的好处。 ✿ 维生素D：可以调节钙磷代谢，促进钙的吸收和骨化。儿童缺乏维生素D时可导致佝偻病的发生。 ✿ 锌：是维持人体正常生长发育和组织再生的重要物质，锌缺乏会导致儿童生长发育迟缓或停滞。 想让孩子长高，特别需要保证钙、维生素D和锌的充足摄入喔* 随着气温的回升，各种新鲜蔬菜水果也开始大量上市，妈妈们在选购食材时可适当多选择一些时令食材尝鲜，比如香椿。 2.帮孩子建立良好的饮食习惯比如三餐规律、不偏食挑食、选择健康零食。对于提高孩子进食质量、预防营养过剩或营养缺乏等等都有益处。 3.鼓励孩子多运动运动不仅有助于儿童控制体重，还能促进皮肤合成维生素D，增进钙的吸收，加速骨骼生长，同时还能刺激食欲，有助于孩子进食。 所以要督促孩子每天至少1小时中等至高强度户外运动，比如踢足球、跑步、打篮球等等；每周2-3次抗阻力运动，比如哑铃、沙袋等等。 4. 保证每天至少8小时的高质量睡眠生长激素可以促进机体的合成代谢，有助于骨骼细胞的增殖，加速骨与软骨的生长，可以说生长激素是让孩子长高高的重要因素。 而有分析认为，生长激素的分泌与睡眠有关。生长激素会集中在夜晚入睡后的时间分泌，且入睡后1-2个小时分泌开始显著增高，因而保证充足且高质量的夜间睡眠一定程度上可促进长高喔。]]></content>
