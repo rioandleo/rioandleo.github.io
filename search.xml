@@ -14,18 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[pipenv - 给人用的Python开发管理工具]]></title>
-    <url>%2F2019%2F09%2F02%2Fpipenv-%E7%BB%99%E4%BA%BA%E7%94%A8%E7%9A%84Python%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%2F</url>
-    <content type="text"><![CDATA[pipenv - 给人用的Python开发管理工具 pipenv是更加便捷的Python项目管理工具 安装12$ pip install pipenv$ pipenv --version 第一个工程项目123456789101112131415$ mkdir myweb$ cd myweb# 项目初始化-Python3$ pipenv --python 3 # 当前目录下，初始python的工程$ pipenv install flask # 在虚拟环境下安装 flask，安装到虚拟环境中$ cat Pipfile # 安装完成后，会在当前目录下生成此文件，$ pip list$ pipenv shell # 进入虚拟环境，就可正常运行命令；也可以pipenv run 不进入虚拟环境运行命令$ pip list$ pipenv --venv # 查看当前工程绑定的虚拟目录$ pipenv graph # 查看当前工程里的库的依赖关系$ exit# 安装开发专用包$ pipenv install --dev requests # 在开发环境中，安装一些测试包，这些包不能安装到生产环境中的，应该安装到开发环境中，开发包中$ cat Pipfile 团队内项目共享Pipfile将建立好的Pipfile文件直接拷贝给项目组的其他成员，可迅速完成开发环境的搭建。 12345678910111213$ mkdir myweb1$ cd myweb1$ wget http://192.168.1.1/myweb/Pipfile# 安装依赖库，包括开发用依赖库$ pipenv install --dev$ pipenv shell$ pip list$ exit$ pipenv --venv# 删除虚拟环境$ pipenv uninstall --all # 卸载全部包$ pipenv --rm$ pipenv --venv 代码运行main.py1import requests 运行脚本1$ pipenv run python main.py 定义执行脚本Pipfile1234[scripts]start = "python main.py"test = "pytest"list = "pip list" 运行脚本1234$ pipenv run python main.py$ pipenv run start$ pipenv run test$ pipenv run list]]></content>
-      <categories>
-        <category>python环境</category>
-      </categories>
-      <tags>
-        <tag>pipenv</tag>
-        <tag>虚拟环境</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[conda虚拟环境操作]]></title>
     <url>%2F2019%2F09%2F01%2Fconda%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E6%93%8D%E4%BD%9C%2F</url>
     <content type="text"><![CDATA[conda虚拟环境操作 conda env list 或 conda info -e 查看当前存在哪些虚拟环境 conda update conda 检查更新当前conda conda update --all 更新本地已安装的包 conda create -n your_env_name python=X.X anaconda 命令创建python版本为X.X、名字为your_env_name的虚拟环境。your_env_name文件可以在Anaconda安装目录envs文件下找到。 Windows: activate your_env_name(虚拟环境名称) 激活虚拟环境 conda install -n your_env_name [package] 安装package到your_env_name中 linux: source deactivateWindows: deactivate 关闭虚拟环境 conda remove -n your_env_name(虚拟环境名称) --all 删除虚拟环境 conda remove --name your_env_name package_name 删除环境中的某个包]]></content>
